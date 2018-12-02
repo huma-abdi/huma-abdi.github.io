@@ -1,0 +1,153 @@
+<html>
+
+	<head>
+	
+		<title>Chapter 10</title>
+	
+	</head>
+	
+	
+	<style>
+
+.main{
+
+    background-color: #bfbfbf;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Second{
+
+    padding: 120px;
+    margin: 42px;
+    display: inline-block;
+
+}
+
+#heading{
+
+    color: white;
+    background-color: #59b300;
+
+}
+
+</style>
+
+
+<body>
+    
+    <div class="main">
+
+        <h2 id="heading">User Registeration Form</h2>
+
+        <form>
+            
+			<table>
+			
+			<tr>
+             <td>User Name: </td>
+			 <td width="90px"></td>
+           <td> <input type="text" name="UserName"> </td>
+            </tr>
+			
+			
+			<tr>
+            <td>Password: </td>
+            <td width="90px"></td>
+           <td><input type="password" name="UserPassword"> </td>
+            </tr>
+			
+			
+			
+			<tr>
+            <td>Date of Birth: </td>
+            <td width="90px"></td>
+           <td> <input type="date" name="UserDOB"></td>
+            </tr>
+			
+			
+			<tr>
+            <td>Web URL: </td>
+            <td width="90px"></td>
+            <td><input type="text" name="UserWeb" > </td>
+            </tr>
+			
+			<tr>
+           <td> Address: </td>
+            <td width="90px"></td>
+           <td> <input type="text" name="UserAddress" > </td>
+            </tr>
+			
+			<tr>
+           <td> City: </td> 
+            <td width="90px"></td>
+           <td>
+		   <select name="UserCity">
+				<option value="Karachi">Karachi</option>
+				<option value="Islamabad">Islamabad</option>
+				<option value="Lahore">Lahore</option>
+				<option value="KPK">KPK</option>
+			</select>
+		</td>
+        </tr>
+		
+		<tr>
+			<td>State:</td> 
+             <td width="90px"></td>
+			<td> <input type="text" name="UserState" ></td>
+        </tr>
+
+		<tr>
+            <td>Zip:</td> 
+            <td width="90px"></td>
+            <td><input type="number" name="UserZip" > </td>
+        </tr>
+
+		<tr>
+            <td>Magzine: </td>
+            <td width="90px"></td>
+		<td>
+			<select name="UserMagzine" multiple>
+                    <option value="Newsweek">Newsweek</option>
+                    <option value="Time">Time</option>
+                    <option value="Fortune">Fortune</option>
+                    <option value="TV Guide">TV Guide</option>
+                </select>
+		</td>		
+        </tr>
+		
+		</table>
+
+            Additional Comments:
+			<br>
+            <textarea name="UserComment" rows="5" cols="45">
+            </textarea>
+            <br>
+
+            Upload your profilepicture:
+            <input type="file" name="UserProfile">
+            <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="heading">Upload</button>
+            <br>
+
+            <input type="submit" value="Send Your Order" id="heading">
+
+			
+
+        </form>
+
+
+    </div>
+
+
+</body>
+
+
+
+
+</html>
