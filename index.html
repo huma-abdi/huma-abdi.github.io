@@ -1,108 +1,305 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CMAD Assignments</title>
 
-	<head>
+    <style>
+
+        *{
+            margin: 0 auto;
+        }
+    
+    .head{
+
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        background-color: black;
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.8em;
+		position:fixed;
+		width:100%;
+
+
+    }
+
+    .main{
+
+        padding-top: 9em;
+
+    }
+
+   .color-box{
+
+        border: black;
+        color:aliceblue;
+        background: #111;
+        width: 9%;
+        height: 100%;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font: outline;
+        font-size: 20px;
+
+
+    }
+
+    #nav-ul{
+
+         list-style-type: none;
+         overflow: hidden;
+         background-color: #333;
+        position: fixed;
+        top: 4.7em;
+        width: 100%;
+
+    }
+
+    #nav-ul li{
+
+        float: left;
+
+    }
+
+    #nav-ul li a{
+
+        display: block;
+         color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #nav-ul li a:hover {
+    background-color: white;
+	color:black;
+	}
+
+	.task-ul{
 	
-	<title>CMAD ASSIGNMENTS</title>
+		list-style-type: none;
+         overflow: hidden;
+
+
+	}
 	
+	.task-ul li a{
 	
-	</head>
-
-	<style>
-		a{
-		color:#004d99;
-		text-decoration:none;
-		}
-
-		a.visited{
-		color:#86592d;
-		}
-		
-		.main{
-		 width:800px; 
-		margin:0 auto;
-		background: white;
-
-		
-		}
-
-	</style>
+	display: block;
+	text-decoration:none;
+	color:black;
+	}
 	
+	.task-ul li a:hover{
 	
-			<body background="back-2.jpg">
+	display: block;
+	color:green;
+	
+	}
 
-				
 
-					<font color="white"><center><h1>Assignments of CMAD</h1></center></font>
-				<font color="black">
-			
-					<div class="main">
-						<ol>
-				
-							<li>Chapter # 2
-								<ul>
-									<li><a href="l1-a1.html" color="white">Task 1</a></li>
-									<li><a href="l1-a2.html">Task 2</a></li>
-									<li><a href="l1-a3.html">Task 3</a></li>
-								</ul>
-							</li>
 
-							<li>Chapter # 3
-								<ul>
-									<li><a href="c3-a1.html" color="white">Task 1</a></li>
-									<li><a href="c3-a2.html">Task 2</a></li>
-									<li><a href="c3-a3.html">Task 3</a></li>
-									
-								</ul>
-							</li>
-							
-							
-							<li>Chapter # 4
-								<ul>
-									<li><a href="c4-t1.html" color="white">Task 1</a></li>
-									<li><a href="c4-t2.html">Task 2</a></li>
-									<li><a href="c4-t3.html">Task 3</a></li>
-									<li><a href="c4-t4.html">Task 4</a></li>
-									<li><a href="c4-t5.html">Task 5</a></li>
-									<li><a href="c4-t6.html">Task 6</a></li>
-								</ul>
-							</li>
-							
-							
-							<li>Chapter # 5
-								<ul>
-									<li><a href="c5-t1.html" color="white">Task 1</a></li>
-									<li><a href="c5-t2.html">Task 2</a></li>
-									<li><a href="c5-t3.html">Task 3</a></li>
-									<li><a href="c5-t4.html">Task 4</a></li>
-									<li><a href="c5-t5.html">Task 5</a></li>
-									<li><a href="c5-t6.html">Task 6</a></li>
-								</ul>
-							</li>
-							
-							<li>Chapter # 6
-								<ul>
-									<li><a href="c6-t1.html" color="white">Task 1</a></li>
-									<li><a href="c6-t2.html">Task 2</a></li>
-									<li><a href="c6-t3.html">Task 3</a></li>
-									<li><a href="c6-t4.html">Task 4</a></li>
-								</ul>
-							</li>
-							
-							
-							<li>Chapter # 7
-								<ul>
-									<li><a href="c7-t1.html" color="white">Task 1</a></li>
-									
-								</ul>
-							</li>
-			
-						</ol>
+    .footer{
+
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        background-color: black;
+        text-align: center;
+        color: aliceblue;
+        font-size: 0.6em;
+
+
+    }
+    
+    
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div class="head">
+        <h1>Welcome to CMAD Assignments</h1>
+    </div>
+
+
+        <!--Navigation bar starts-->
+
+            <ul id="nav-ul">
+                    <li><a href="#c2">Text</a></li>
+                    <li><a href="#c3">Lists</a></li>
+                    <li><a href="#c4">Links</a></li>
+                    <li><a href="#c5">Images</a></li>
+					<li><a href="#c6">Tables</a></li>
+					<li><a href="#c7">Forms</a></li>
 					
-					</div>
-				</font>
+                  </ul>
+
+        <!--Navigation bar ends-->
+
+
+        <div class="main">
+
+		
+		<!-- Chapter # 02 -->
+        <p class="color-box" id="c2" >Chapter # 02</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="l1-a1.html">Task # 1</a></li>
+					<li><a href="l1-a2.html">Task # 2</a></li>
+					<li><a href="l1-a3.html">Task # 3</a></li>
+
+
+                </ul>
+
+
+
+            </center>
 			
-			</body>
+			<br>
+			
+			
+		<!-- Chapter # 03 -->
+        <p class="color-box" id="c3">Chapter # 03</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="c3-a1.html">Task # 1</a></li>
+					<li><a href="c3-a2.html">Task # 2</a></li>
+					<li><a href="c3-a3.html">Task # 3</a></li>
+
+
+                </ul>
 
 
 
+            </center>
+			
+			<br>
+			<!-- Chapter # 04 -->
+        <p class="color-box" id="c4">Chapter # 04</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="c4-t1.html">Task # 1</a></li>
+					<li><a href="c4-t2.html">Task # 2</a></li>
+					<li><a href="c4-t3.html">Task # 3</a></li>
+					<li><a href="c4-t4.html">Task # 4</a></li>
+					<li><a href="c4-t5.html">Task # 5</a></li>
+					<li><a href="c4-t6.html">Task # 6</a></li>
+
+
+                </ul>
+
+
+
+            </center>
+			
+			
+			<br>
+			<!-- Chapter # 05 -->
+			<p class="color-box" id="c5">Chapter # 05</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="c5-t1.html">Task # 1</a></li>
+					<li><a href="c5-t2.html">Task # 2</a></li>
+					<li><a href="c5-t3.html">Task # 3</a></li>
+					<li><a href="c5-t4.html">Task # 4</a></li>
+					<li><a href="c5-t5.html">Task # 5</a></li>
+					<li><a href="c5-t6.html">Task # 6</a></li>
+
+
+                </ul>
+
+
+
+            </center>
+			
+			
+			<br>
+			<!-- Chapter # 06 -->
+			<p class="color-box" id="c6">Chapter # 06</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="c6-t1.html">Task # 1</a></li>
+					<li><a href="c6-t2.html">Task # 2</a></li>
+					<li><a href="c6-t3.html">Task # 3</a></li>
+					<li><a href="c6-t4.html">Task # 4</a></li>
+
+
+                </ul>
+
+
+
+            </center>
+			
+			
+			
+			<br>
+			<!-- Chapter # 07 -->
+			<p class="color-box" id="c7">Chapter # 07</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="c7-t1.html" color="white">Task # 1</a></li>
+
+                </ul>
+
+
+
+            </center>
+			<br>
+			
+			
+			<!-- Chapter # 08 -->
+			<p class="color-box" id="c7">Chapter # 08</p>
+
+            <center>
+
+                <ul class="task-ul">
+
+                    <li><a href="c8-t1.html" color="white">Task # 1</a></li>
+
+                </ul>
+
+
+
+            </center>
+			
+
+
+    </div>
+
+         
+
+    <div class="footer">
+
+        <hr>
+
+            &copy; All rights reserved - 2018
+            <br>
+            Made by Huma Abdi
+
+
+
+    </div>
+
+
+</body>
 </html>
